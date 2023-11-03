@@ -30,8 +30,8 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
 
-            [[Test]
-        public void Add_Valid-MichaelEndacott()
+        [[Test]
+        public void Add_ValidMichaelEndacott()
         {
             string x = "2";
             string y = "3";
@@ -41,9 +41,8 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Subtract_Valid-MichaelEndacott()
+        public void Subtract_ValidMichaelEndacott()
         {
-
             string x = "5";
             string y = "3";
             double result = Program.Subtract(x, y);
@@ -51,17 +50,17 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Multiply_Valid-MichaelEndacott()
+        public void Multiply_ValidMichaelEndacott()
         {
             string x = "4";
             string y = "3";
             double result = Program.Multiply(x, y);
 
-            Assert.AreEqual(13, result);
+            Assert.AreEqual(12, result);
         }
 
         [Test]
-        public void Divide_Valid-MichaelEndacptt()
+        public void Divide_ValidMichaelEndacott()
         {
             string x = "12";
             string y = "3";
