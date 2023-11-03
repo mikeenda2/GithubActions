@@ -30,7 +30,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
 
-        [[Test]
+        [Test]
         public void Add_ValidMichaelEndacott()
         {
             string x = "2";
